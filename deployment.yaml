@@ -46,7 +46,7 @@ spec:
       subdomain: zipkin
       containers:
       - name: spring-cloud-sleuth
-        image: hubtea/zipkin:latest
+        image: ssipflow/zipkin:latest
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev
